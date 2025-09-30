@@ -1,0 +1,31 @@
+# Docker Compose override for development
+# This file provides additional configuration for development environments
+
+version: '3.8'
+
+services:
+  music-generator:
+    # Enable GPU support if available (uncomment if you have NVIDIA GPU)
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+    
+    # Override for development with live reload
+    volumes:
+      - .:/app
+      - /app/training_checkpoints  # Anonymous volume for checkpoints
+      - /app/generated_music       # Anonymous volume for generated music
+    
+    # Development environment variables
+    environment:
+      - PYTHONPATH=/app
+      - FLUID_SYNTH_SOUNDFONT=/usr/share/sounds/sf2/FluidR3_GM.sf2
+      - TF_CPP_MIN_LOG_LEVEL=2  # Reduce TensorFlow logging
+    
+    # Keep container running for development
+    tty: true
+    stdin_open: true

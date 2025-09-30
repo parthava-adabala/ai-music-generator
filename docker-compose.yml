@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  music-generator:
+    build: .
+    container_name: ai-music-generator
+    volumes:
+      # Mount the data directory for training data
+      - ./data:/app/data
+      # Mount output directory for generated music
+      - ./generated_music:/app/generated_music
+      # Mount checkpoints directory for model persistence
+      - ./training_checkpoints:/app/training_checkpoints
+    environment:
+      - PYTHONPATH=/app
+      - FLUID_SYNTH_SOUNDFONT=/usr/share/sounds/sf2/FluidR3_GM.sf2
+    # Override the default command
+    command: ["python", "music_generator.py", "--help"]
+    
+  # Service for training the model
+  train:
+    build: .
+    container_name: ai-music-trainer
+    volumes:
+      - ./data:/app/data
+      - ./training_checkpoints:/app/training_checkpoints
+    environment:
+      - PYTHONPATH=/app
+    command: ["python", "music_generator.py", "--train", "--data", "data/input.txt"]
+    
+  # Service for generating music
+  generate:
+    build: .
+    container_name: ai-music-generator-prod
+    volumes:
+      - ./data:/app/data
+      - ./generated_music:/app/generated_music
+      - ./training_checkpoints:/app/training_checkpoints
+    environment:
+      - PYTHONPATH=/app
+    command: ["python", "music_generator.py", "--generate", "--data", "data/input.txt", "--output", "generated_music"]
+    depends_on:
+      - train

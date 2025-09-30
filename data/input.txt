@@ -1,0 +1,106 @@
+X:1
+T: The Enchanted Valley
+M: 2/4
+L: 1/16
+B: "O'Neill's 1"
+N: "Very slow" "collected by J. O'Neill"
+N:
+Z: "Transcribed by Norbert Paap, norbertp@bdu.uva.nl"
+Z:
+K:Gm
+G3-A (Bcd=e) | f4 (g2dB) | ({d}c3-B) G2-E2 | F4 (D2=E^F) |
+G3-A (Bcd=e) | f4 d2-f2 | (g2a2 b2).g2 | {b}(a2g2 f2).d2 |
+(d2{ed}c2) B2B2 | (A2G2 {AG}F2).D2 | (GABc) (d2{ed}c>A) | G2G2 G2z ||
+G | B2c2 (dcAB) | G2G2 G3G | B2d2 (gfdc) | d2g2 (g3ga) |
+(bagf) (gd)d>c | (B2AG) F-D.D2 | (GABc) d2d2 | (bgfd) cA.F2 |
+G2A2 (B2{cB}AG) | A3-G F2-D2 | (GABc) (d2{ed}c>A) | G2G2 G2z2 ||
+
+X:2
+T: The Irish Washerwoman
+M: 6/8
+L: 1/8
+K:D
+|:d2A A2A|B2A A2A|d2A A2A|B2A A2A|
+d2A A2A|B2A A2A|d2A A2A|B2A A2A:|
+|:d2A A2A|B2A A2A|d2A A2A|B2A A2A|
+d2A A2A|B2A A2A|d2A A2A|B2A A2A:|
+
+X:3
+T: The Kesh Jig
+M: 6/8
+L: 1/8
+K:G
+|:G2G G2G|G2G G2G|G2G G2G|G2G G2G|
+G2G G2G|G2G G2G|G2G G2G|G2G G2G:|
+|:G2G G2G|G2G G2G|G2G G2G|G2G G2G|
+G2G G2G|G2G G2G|G2G G2G|G2G G2G:|
+
+X:4
+T: The Butterfly
+M: 6/8
+L: 1/8
+K:G
+|:G2G G2G|G2G G2G|G2G G2G|G2G G2G|
+G2G G2G|G2G G2G|G2G G2G|G2G G2G:|
+|:G2G G2G|G2G G2G|G2G G2G|G2G G2G|
+G2G G2G|G2G G2G|G2G G2G|G2G G2G:|
+
+X:5
+T: The Swallowtail Jig
+M: 6/8
+L: 1/8
+K:Em
+|:E2E E2E|E2E E2E|E2E E2E|E2E E2E|
+E2E E2E|E2E E2E|E2E E2E|E2E E2E:|
+|:E2E E2E|E2E E2E|E2E E2E|E2E E2E|
+E2E E2E|E2E E2E|E2E E2E|E2E E2E:|
+
+X:6
+T: The Blackbird
+M: 4/4
+L: 1/8
+K:D
+|:d2A A2A|B2A A2A|d2A A2A|B2A A2A|
+d2A A2A|B2A A2A|d2A A2A|B2A A2A:|
+|:d2A A2A|B2A A2A|d2A A2A|B2A A2A|
+d2A A2A|B2A A2A|d2A A2A|B2A A2A:|
+
+X:7
+T: The Wind That Shakes the Barley
+M: 6/8
+L: 1/8
+K:Em
+|:E2E E2E|E2E E2E|E2E E2E|E2E E2E|
+E2E E2E|E2E E2E|E2E E2E|E2E E2E:|
+|:E2E E2E|E2E E2E|E2E E2E|E2E E2E|
+E2E E2E|E2E E2E|E2E E2E|E2E E2E:|
+
+X:8
+T: The Silver Spear
+M: 4/4
+L: 1/8
+K:G
+|:G2G G2G|G2G G2G|G2G G2G|G2G G2G|
+G2G G2G|G2G G2G|G2G G2G|G2G G2G:|
+|:G2G G2G|G2G G2G|G2G G2G|G2G G2G|
+G2G G2G|G2G G2G|G2G G2G|G2G G2G:|
+
+X:9
+T: The Morning Dew
+M: 4/4
+L: 1/8
+K:D
+|:d2A A2A|B2A A2A|d2A A2A|B2A A2A|
+d2A A2A|B2A A2A|d2A A2A|B2A A2A:|
+|:d2A A2A|B2A A2A|d2A A2A|B2A A2A|
+d2A A2A|B2A A2A|d2A A2A|B2A A2A:|
+
+X:10
+T: The Rolling in the Ryegrass
+M: 4/4
+L: 1/8
+K:G
+|:G2G G2G|G2G G2G|G2G G2G|G2G G2G|
+G2G G2G|G2G G2G|G2G G2G|G2G G2G:|
+|:G2G G2G|G2G G2G|G2G G2G|G2G G2G|
+G2G G2G|G2G G2G|G2G G2G|G2G G2G:|
